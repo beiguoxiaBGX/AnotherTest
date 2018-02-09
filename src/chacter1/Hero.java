@@ -9,6 +9,12 @@ public class Hero {
         name = "the hero";
     }
     public static void main(String args[]){
+        Hero h = new ADHero();
+        ADHero adHero = new ADHero();
+        h.battleWin();
 
+    }
+    public void battleWin(){
+        System.out.println("Hero battle win!");
     }
 }
